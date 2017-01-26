@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/(svgfig-)?(\d\S+)\.tar\.gz/svgfig-$2\.tar\.gz/ \
+  https://github.com/sena73/svgfig/tags .*/(\d\S+)\.tar\.gz

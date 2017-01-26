@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export PYBUILD_DESTDIR_python2=debian/python-svgfig/
+export PYBUILD_DESTDIR_python3=debian/python3-svgfig/
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild

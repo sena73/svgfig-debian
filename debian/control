@@ -1,0 +1,30 @@
+Source: python-svgfig
+Section: python
+Priority: optional
+Maintainer: Sergey Spiridonov <sena@s73.work>
+Build-Depends: debhelper (>= 9.0.0)
+	, dh-python
+	, python-all
+	, python3-all
+	, python-setuptools
+	, python3-setuptools
+Standards-Version: 3.9.5
+Homepage: https://github.com/sena73/svgfig
+# X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python-svgfig
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description:  SVG plotting framework for Python 2
+ SVG plotting framework for Python 2. SVGFIG is written entirely in Python.
+ .
+ This package contains the module for Python 2.
+
+Package: python3-svgfig
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: SVG plotting framework for Python 3
+ SVG plotting framework for Python 3. SVGFIG is written entirely in Python.
+ .
+ This package contains the module for Python 3.
