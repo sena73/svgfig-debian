@@ -3,7 +3,7 @@ Upstream-Name: python-svgfig
 Source: https://github.com/sena73/svgfig/
 
 Files: *
-Copyright: Jim Pivarski
+Copyright: Jim Pivarski <jpivarski@gmail.com>
 License: GPL v.2 or later
 
 Files: debian/*
