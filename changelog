@@ -1,6 +1,8 @@
 python-svgfig (1.0.0-2) UNRELEASED; urgency=medium
 
   * Updated email of Jim Pivarski
+  
+  * moved all files up one level and removed denbian directory
 
  -- Sergey Spiridonov <sena@s73.work>  Wed, 27 Jan 2017 10:06:26 +0100
 
